@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>i-Mart | Welcome</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+  body{
+    margin-top: 5rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .container{
+    margin: 0 15% 0 15%;
+  }
+
+  .card{
+  	margin: 40px;
+  }
+
+  .card:hover{
+      -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+      -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+      box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+  }
+  /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  padding-top: 250px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,.7); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  color: #000;
+  margin: auto;
+  padding:40px;
+  font-size: 3rem;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right!important;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+  </style>
+</head>
+<body>
+  <!-- Navigation  -->
+  <header>
+      <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-light">
+        <a class="navbar-brand " href="index.html"><img src="img/logoT.png" alt="i-Mart"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <!-- <form class="form-inline col-lg-6 mt-2 mt-md-0  offset-lg-3">
+            <input class="form-control col-lg-9 mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="offers.html">Offers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+  <section id="showcase" style="padding-top: 20px; padding-bottom: 50px; background: #fff; color: #000;">
+    <div class="container">
+        <div class="row">
+          <div class="col-4-lg">
+                <!-- Bootstrap Card -->
+                <div class="card" style="width:18rem;">
+                    <img src="products/1.jpg" alt="Card One" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Quartz premium</h5>
+                        <p class="card-text">
+                           Price:<span style="color: #e84118; font-size: 19px;">$99.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <a href="watches.html"><img src="products/2.jpg" alt="Card Two" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Redux Watch</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$99.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/3.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Redux Watch</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$99.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/4.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Acer Predator Helios</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$999.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/5.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Blade 15</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$999.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/6.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Blade Stealth</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$999.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/7.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Gold Coin</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$109.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/8.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Tiger Gloves</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$49.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/9.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Rose Gold Coin</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$109.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/10.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Colgate White</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$9.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/11.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Diary Milk Silk</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$9.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/12.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">GoldStar Shoes</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$59.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/13.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Acer Predator</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$899.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/14.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Acer VX 15</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$899.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/15.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">MSI New Horizon</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$899.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/16.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Dark Fantasy</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$9.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/17.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Oreo Biscuits</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$4.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/18.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">BourBon Biscuits</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$4.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/19.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Black Cushion</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$99.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/20.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Cushion</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$99.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/21.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Brown Cushion</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$99.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/22.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Close UP</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$8.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/23.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">JimJam</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$5.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-4-lg">
+                <div class="card" style="width:18rem;">
+                    <img src="products/24.jpg" alt="Card Two" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Parle Rusk</h5>
+                        <p class="card-text">
+                          Price: <span style="color: #e84118; font-size: 19px;">$5.99</span>
+                        </p>
+                        <a href="#" class="btn btn-primary">Buy</a>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>You have bought the item.Hope you are enjoying your experience at i-Mart.</p>
+    </div>
+  </div>
+  </section>
+   <!--Footer  -->
+      <footer>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p><img src="img/logoT.png" alt=""> &copy; 2017-2018 Company, Inc.  <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+      <script>
+  // Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[0];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+  modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[1];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[1];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[2];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[2];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[3];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[3];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[4];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[4];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[5];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[5];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[6];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[6];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[7];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[7];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[8];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[8];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[9];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[9];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[10];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[10];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[11];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[11];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[12];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[12];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[13];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[13];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[14];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[14];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[15];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[15];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[16];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[16];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[17];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[17];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[18];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[18];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[19];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[19];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[20];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[20];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[21];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[21];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[22];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[22];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementsByClassName("btn")[23];
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[23];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+if (event.target == modal) {
+modal.style.display = "none";
+}
+}
+</script>
+      <script>
+    $(document).ready(function(){
+
+        $('.col-4-lg').hover(
+            // trigger when mouse hover
+            function(){
+                $(this).animate({
+                    marginTop: "-=2.5%",
+                },200);
+            },
+
+            // trigger when mouse out
+            function(){
+                $(this).animate({
+                    marginTop: "0%"
+                },200);
+            }
+        );
+    });
+</script>
+      <script src="bootstrap.min.js"></script>
+      <script src="jquery.slim.min.js"></script>
+      <script src="jquery.min.js"></script>
+      <script src="popper.min.js"></script>
+</body>
+</html>
